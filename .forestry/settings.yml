@@ -4,6 +4,17 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/products.json
+  label: Product
+  match: "**/*"
+- type: heading
+  label: Banner
+- type: directory
+  path: ''
+  label: Directories
+  create: all
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
