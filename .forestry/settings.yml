@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/products.json
   label: Product
-  match: "**/*"
 - type: heading
   label: Banner
 - type: directory
